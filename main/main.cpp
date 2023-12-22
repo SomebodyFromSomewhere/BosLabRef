@@ -10,7 +10,7 @@ int main(int argc, char **argv)
         {
             mnetstat::printHeaderV6();
             mnetstat::tcpV6();
-            break;
+            return 0;
         }
     }
     mnetstat::printHeaderV4();
